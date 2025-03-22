@@ -32,13 +32,19 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 100,
+  "countdown": 30,
+  "country_time": "en-US",
+  "delayEachAccount": [1, 1],
+  "referralCode": "6713068747",
+  "doTasks": true,
+  "watchAds": true,
+  "howManyBoxesToOpen": 1
 }
 ```
 
-### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
+### 2. `datas.txt` 🗂️ - [Get it from here](https://t.me/KeoAirDropFreeNee/1586)
+
 
 ```txt
 query_id.../user...
@@ -47,7 +53,7 @@ query_id.../user...
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
-
+- [Get it from here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 ```txt - wallet address
 abc...xyz
 abc...xyz
@@ -56,16 +62,23 @@ abc...xyz
 
 ### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
 
+- [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
+
 ```txt
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
+http://host:port
+https://host:port
+socks4://host:port
+socks5://host:port
+http://user:pass@host:port
+https://user:pass@host:port
+socks4://user:pass@host:port
+socks5://user:pass@host:port
 ```
+
 
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `node meomundep`
 
 🎇Enjoy!
