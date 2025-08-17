@@ -34,7 +34,6 @@ To get started with the bot, follow these steps:
 {
   "limit": 100,
   "countdown": 30,
-  "country_time": "en-US",
   "delayEachAccount": [1, 1],
   "referralCode": "6713068747",
   "doTasks": true,
